@@ -28,18 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            dlgColor = new ColorDialog();
+            btnColor = new Button();
             SuspendLayout();
+            // 
+            // btnColor
+            // 
+            btnColor.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnColor.Location = new Point(12, 309);
+            btnColor.Name = "btnColor";
+            btnColor.Size = new Size(75, 23);
+            btnColor.TabIndex = 0;
+            btnColor.Text = "Color";
+            btnColor.UseVisualStyleBackColor = true;
+            btnColor.Click += btnColor_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(549, 377);
+            ClientSize = new Size(549, 344);
+            Controls.Add(btnColor);
+            Cursor = Cursors.Cross;
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Paint";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private ColorDialog dlgColor;
+        private Button btnColor;
     }
 }
