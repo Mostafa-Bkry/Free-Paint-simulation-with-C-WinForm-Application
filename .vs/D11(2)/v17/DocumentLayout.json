@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0083BDC-7D51-4D66-B934-39823EC9ED97}|Paint\\Paint.csproj|e:\\mega dotnet iti track\\3- winforms\\my task solving\\d11(2)\\paint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0083BDC-7D51-4D66-B934-39823EC9ED97}|Paint\\Paint.csproj|solutionrelative:paint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0083BDC-7D51-4D66-B934-39823EC9ED97}|Paint\\Paint.csproj|E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\paint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0083BDC-7D51-4D66-B934-39823EC9ED97}|Paint\\Paint.csproj|solutionrelative:paint\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\Paint\\Form1.cs",
+              "RelativeDocumentMoniker": "Paint\\Form1.cs",
+              "ToolTip": "E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\Paint\\Form1.cs",
+              "RelativeToolTip": "Paint\\Form1.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAmwHsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:19:13.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\Paint\\Form1.cs",
+              "RelativeDocumentMoniker": "Paint\\Form1.cs",
+              "ToolTip": "E:\\Mega DotNet ITI Track\\3- WinForms\\My Task Solving\\D11(2)\\Paint\\Form1.cs [Design]",
+              "RelativeToolTip": "Paint\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:13:55.928Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
