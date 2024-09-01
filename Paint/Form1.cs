@@ -70,6 +70,7 @@ namespace Paint
     public partial class Form1 : Form
     {
         bool isDrawing = false;
+        bool isEreasing = false;
         SolidBrush myBrush = new SolidBrush(Color.Black);
         Point clickPosition;
 
@@ -98,25 +99,42 @@ namespace Paint
                 clickPosition = new Point(e.X, e.Y);
                 this.Cursor = Cursors.Cross;
             }
+            else if (e.Button == MouseButtons.Right)
+            {
+                isEreasing = true;
+                clickPosition = new Point(e.X, e.Y);
+                this.Cursor = Cursors.Cross;
+            }
         }
 
         protected override void OnMouseMove(MouseEventArgs e)
         {
             base.OnMouseMove(e);
 
+            Graphics grfx = this.CreateGraphics();
+
             if (isDrawing)
             {
-                Graphics grfx = this.CreateGraphics();
 
                 Point currentPosition = new Point(e.X, e.Y);
                 grfx.DrawLine(new Pen(myBrush, 3), clickPosition, currentPosition);
                 clickPosition = currentPosition; // updating along with the movement of the cursor
             }
+
+            if (isEreasing)
+            {
+                grfx.FillEllipse(new SolidBrush(this.BackColor), clickPosition.X, clickPosition.Y, 30, 30);
+                clickPosition = new Point(e.X, e.Y);
+            }
         }
 
         protected override void OnMouseUp(MouseEventArgs e)
         {
-            isDrawing = false;
+            if (e.Button == MouseButtons.Left)
+                isDrawing = false;
+            else if (e.Button == MouseButtons.Right)
+                isEreasing = false;
+
             this.Cursor = Cursors.Default;
         }
     }
